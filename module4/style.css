@@ -1,0 +1,150 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting body styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Change font family as needed */
+    background-color: #f7f7f7; /* Change background color as needed */
+    color: #555; /* Default text color */
+    line-height: 1.6; /* Improve readability by adjusting line height */
+}
+
+/* Styling header */
+header {
+    background-color: #d4c4cf; /* Change header background color as needed */
+    color: #181717; /* Change header text color as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling main content area */
+main {
+    padding: 20px;
+}
+
+/* Styling paragraphs */
+p {
+    margin-bottom: 15px; /* Add space between paragraphs for readability */
+    font-size: 16px; /* Adjust paragraph font size */
+}
+
+/* Styling headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px; /* Add space above headings */
+    margin-bottom: 10px; /* Add space below headings */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Change font family as needed */
+}
+
+h1 {
+    font-size: 32px; /* Adjust heading 1 font size */
+}
+
+h2 {
+    font-size: 28px; /* Adjust heading 2 font size */
+}
+
+h3 {
+    font-size: 24px; /* Adjust heading 3 font size */
+}
+
+/* Styling links */
+a {
+    color: #0077cc; /* Change link color as needed */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling lists */
+ul, ol {
+    margin-bottom: 15px; /* Add space below lists */
+}
+
+/* Styling list items */
+li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Styling footer */
+footer {
+    background-color: #4CAF50; /* Change footer background color as needed */
+    color: #fff; /* Change footer text color as needed */
+    padding: 20px;
+    text-align: center;
+}
+h5{
+    font-size: 24px;
+}
+
+
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navigation bar */
+.navbar {
+    background-color: #333; /* Change the background color */
+    padding: 10px 20px; /* Add padding to the top and bottom */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling the navbar brand */
+.navbar-brand {
+    color: #fff; /* Change the brand text color */
+    font-size: 1.5rem; /* Adjust the brand font size */
+    font-weight: bold; /* Make the brand text bold */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add transition effect */
+}
+
+.navbar-brand:hover {
+    color: #ffc107; /* Change the brand text color on hover */
+}
+
+/* Styling the navbar toggler icon */
+.navbar-toggler {
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    color: #fff; /* Change the color of the toggler button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 1.2rem; /* Adjust the font size */
+    transition: color 0.3s; /* Add transition effect */
+}
+
+.navbar-toggler:hover {
+    color: #ffc107; /* Change the color of the toggler button on hover */
+}
+
+/* Styling the navigation links */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin-left: 20px; /* Add margin between nav items */
+}
+
+.nav-link {
+    color: #fff; /* Change the link text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Adjust the link font size */
+    font-weight: bold; /* Make the link text bold */
+    transition: color 0.3s; /* Add transition effect */
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Change the link text color on hover */
+}
